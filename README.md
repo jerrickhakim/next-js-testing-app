@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js Testing Application
 
-## Getting Started
+A modern Next.js application built with cutting-edge technologies for testing, learning, and rapid development.
 
-First, run the development server:
+Stack
 
-```bash
+- Next.js 16 - Modern React framework with App Router
+- React 19 - Latest React capabilities
+- TypeScript - Type-safe development
+- Tailwind CSS 4 - Utility-first CSS framework
+- ESLint - Code quality and consistency
+
+Quick Start
+
+Prerequisites
+
+Node.js 18+ and npm/yarn/pnpm/bun
+
+Installation
+
+Clone the repository and install dependencies:
+
+npm install
+
+Development Server
+
+Run the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000 in your browser. The application will hot-reload as you make changes to the code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create an optimized production build:
 
-## Learn More
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+Start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Linting
 
-## Deploy on Vercel
+Check and maintain code quality:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm run lint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Project Structure
+
+app/
+  - page.tsx - Main landing page component
+  - layout.tsx - Root layout wrapper
+  - globals.css - Global styles
+  - favicon.ico - Site favicon
+
+public/
+  - SVG assets and images for the application
+
+Key Features
+
+- Modern Next.js App Router structure
+- TypeScript for type safety
+- Tailwind CSS for responsive design
+- Dark mode support built-in
+- Optimized images with Next.js Image component
+- ESLint configuration for code consistency
+
+Getting Started with Development
+
+1. Edit app/page.tsx to customize the home page
+2. Add new routes by creating directories in the app folder
+3. Use Tailwind CSS classes for styling
+4. Run npm run dev to see changes instantly
+
+Learn More
+
+- Next.js Documentation - https://nextjs.org/docs
+- React 19 - https://react.dev
+- Tailwind CSS - https://tailwindcss.com
+- Next.js Learn Course - https://nextjs.org/learn
+
+Deployment
+
+Deploy easily to Vercel:
+
+npm run build
+npm start
+
+Or connect your repository to Vercel for automatic deployments on every push.
+
+License
+
+MIT
